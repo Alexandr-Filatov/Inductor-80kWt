@@ -828,7 +828,7 @@
     (uuid fed945d7-6cec-466d-b158-5f72b2c77e13)
   )
 
-  (global_label "E1" (shape input) (at 62.484 96.139 180) (fields_autoplaced)
+  (global_label "E3" (shape input) (at 62.484 96.139 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 35d387e0-26ec-45a3-a3d9-98bdef2a3cbe)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 57.7123 96.0596 0)
@@ -1098,7 +1098,7 @@
   (symbol (lib_id "Isolator:ADuM1200AR") (at 172.339 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3e6d2843-714c-4d27-831a-a93b48ca1d85)
-    (property "Reference" "U?" (id 0) (at 172.339 88.519 0))
+    (property "Reference" "U5" (id 0) (at 172.339 88.519 0))
     (property "Value" "ADuM1200AR" (id 1) (at 172.339 91.059 0))
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 172.339 111.379 0)
       (effects (font (size 1.27 1.27) italic) hide)

@@ -1,4 +1,4 @@
-19856571297700869
+19858253286254780
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -41082,6 +41082,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_Power
+M5
+
+
+0
+1
+1
 Connector_RJ
 RJ12_Amphenol_54601
 RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf

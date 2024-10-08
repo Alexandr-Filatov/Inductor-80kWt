@@ -102,27 +102,27 @@
 		(uuid "17f29553-6465-430a-8bee-e9a87d19ae3b")
 	)
 	(fp_text user "+Vo"
-		(at 2.84779 2.60778 0)
+		(at 2 2.60778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2b192c92-03a7-4ed2-a467-b6cff462cc49")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "-Vo"
-		(at 8.37672 2.60778 0)
+		(at 7.5 2.60778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3e91ace1-7016-4f7e-8320-8da2ae6763a2")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -134,47 +134,47 @@
 		(uuid "503169b5-21de-4b8a-b1eb-4061385ee6f2")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "GND"
-		(at -9.7282 2.60778 0)
+		(at -10.5 2.60778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "674ea9f7-9975-48bf-b5c1-a935c247b263")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "NC"
-		(at 0.6858 2.60778 0)
+		(at 0 2.60778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "69aeb5c8-b9e6-4d35-aecc-41e66da5124e")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "0V"
-		(at 5.91111 2.60778 0)
+		(at 5.5 2.60778 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b28282e4-0289-4f49-b4f4-39eb069a0ef0")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -186,21 +186,21 @@
 		(uuid "b3ac3d3d-7ae9-49ed-b5fa-f5d29c9ff3de")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "WRA_S-3WR2"
-		(at -4.455 5.2324 0)
+		(at -5 5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cd5b4a28-defc-4c19-aeb4-2e27a3849b30")
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

@@ -794,6 +794,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 139.065 73.025 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "061a294d-76d3-4389-a1f8-5fd3f8e5c50c")
+		(property "Reference" "#PWR070"
+			(at 139.065 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.033 77.089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e3e882a-23ed-4396-99d7-658ddcd2c08a")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb537d0a-be40-4038-86f7-62065d47d4b4"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 123.19 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -926,6 +992,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 139.065 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7018012b-226a-46b4-9f7f-850c721a34fa")
+		(property "Reference" "#PWR014"
+			(at 139.065 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.811 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.065 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b727c9-5bb5-453c-ac82-bd1e43782e3a")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb537d0a-be40-4038-86f7-62065d47d4b4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 139.446 86.868 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -984,6 +1115,75 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb537d0a-be40-4038-86f7-62065d47d4b4"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.065 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85e077b4-c0d0-4c34-a3e4-84b5269d4bec")
+		(property "Reference" "C9"
+			(at 141.4018 69.3166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 141.4018 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 139.065 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.065 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f86744-3fa1-49bb-b58f-908d029f2e85")
+		)
+		(pin "2"
+			(uuid "60cea755-9748-47c4-92f7-b9a4721a79fe")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb537d0a-be40-4038-86f7-62065d47d4b4"
+					(reference "C9")
 					(unit 1)
 				)
 			)

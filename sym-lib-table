@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Logic_My")(type "KiCad")(uri "${KIPRJMOD}/Logic_My.kicad_sym")(options "")(descr ""))
   (lib (name "Mornsun")(type "KiCad")(uri "${KIPRJMOD}/Mornsun.kicad_sym")(options "")(descr ""))
+  (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/power_my.kicad_sym")(options "")(descr ""))
 )

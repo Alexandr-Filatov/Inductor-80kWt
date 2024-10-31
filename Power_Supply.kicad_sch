@@ -2619,7 +2619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WRA1215S-3WR2"
 			(at 53.34 69.215 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "K78xxM-1000R3"
 			(at 52.705 130.175 0)
 			(effects
 				(font
@@ -3446,7 +3446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WRA1215S-3WR2"
 			(at 53.34 97.155 0)
 			(effects
 				(font

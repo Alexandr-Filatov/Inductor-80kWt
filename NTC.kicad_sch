@@ -2607,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADuM1200AR"
 			(at 172.085 100.965 0)
 			(effects
 				(font
@@ -2693,7 +2693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LMV7219M5"
 			(at 124.46 98.425 0)
 			(effects
 				(font
@@ -3276,7 +3276,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117GS-3.3"
+		(property "Value" "LM1117GS-5.0"
 			(at 73.66 91.948 0)
 			(effects
 				(font
@@ -3302,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LM1117GS-5.0"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -3908,7 +3908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADM3485E"
 			(at 210.312 84.328 0)
 			(effects
 				(font

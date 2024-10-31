@@ -1390,7 +1390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NSM2011-50B5R-DSWR"
 			(at 144.145 80.01 0)
 			(effects
 				(font

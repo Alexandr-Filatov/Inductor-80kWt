@@ -1774,7 +1774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FYLS-0805UBC"
 			(at 76.2 136.398 0)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KP-2012SURCK"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADM3485E"
 			(at 231.648 91.186 0)
 			(effects
 				(font

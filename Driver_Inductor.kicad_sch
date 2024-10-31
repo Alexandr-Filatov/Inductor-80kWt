@@ -2816,7 +2816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "SCT3001WV-2x06P"
 			(at 245.745 109.855 0)
 			(effects
 				(font
@@ -2983,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "B32674D6105K000"
 			(at 153.035 125.095 0)
 			(effects
 				(font

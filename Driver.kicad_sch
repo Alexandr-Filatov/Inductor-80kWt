@@ -5,6 +5,265 @@
 	(uuid "27dd53ca-61f7-4bb9-b6a8-78101ea67b79")
 	(paper "A4")
 	(lib_symbols
+		(symbol "ADM1485JRZ:ADM1485JRZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.762 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ADM1485JRZ"
+				(at -6.096 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1485.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ANALOG DEVICES - ADM1485JRZ - Differential Line Transceiver RS485, High Speed, Low Power, 2 Drivers,  4.75V-5.25V supply, SOIC-8"
+				(at -12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ADM1485JRZ"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "ADM1485JRZ"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/adm1485jrz/analog-devices?region=europe"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ADM1485JRZ_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "RO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1537,10 +1796,22 @@
 		(uuid "1c5db8fc-eaba-4511-af5d-3d6f410d5814")
 	)
 	(junction
+		(at 182.245 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24415a4b-2bc1-4768-86b0-af67d549cdf9")
+	)
+	(junction
 		(at 125.73 46.355)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "271b526c-4e85-493b-aed9-964ad40ae62c")
+	)
+	(junction
+		(at 182.245 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2830fc62-815a-466b-9102-7153145d1a98")
 	)
 	(junction
 		(at 104.775 50.165)
@@ -1559,6 +1830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64b95f98-7b17-4bf7-82e5-ec4b2c9d5776")
+	)
+	(junction
+		(at 213.995 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677a7fe9-f13f-46bc-9af8-7259cd48ac7b")
 	)
 	(junction
 		(at 97.79 75.565)
@@ -1591,10 +1868,22 @@
 		(uuid "7f601450-0e1d-40d7-808a-04071d47ff50")
 	)
 	(junction
+		(at 213.995 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d95dc8-3fcb-48ba-9972-a079bd6dd11a")
+	)
+	(junction
 		(at 97.79 85.471)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b055284-1575-47ab-ad4f-d7d26bb8dfdf")
+	)
+	(junction
+		(at 213.995 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29090c8-639d-45b6-801e-55947b9ad8ad")
 	)
 	(junction
 		(at 97.79 151.765)
@@ -1607,6 +1896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab08bfd1-6e51-457b-b2f3-94571415ffef")
+	)
+	(junction
+		(at 213.995 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda28729-f8f0-4abd-85a4-c529dbc8cb0c")
 	)
 	(junction
 		(at 109.22 131.445)
@@ -1637,6 +1932,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb43187-9241-4dae-910d-99b09deff653")
+	)
+	(no_connect
+		(at 185.42 96.52)
+		(uuid "4a981994-f80a-4fcc-8df2-4f272a6dfd4b")
+	)
+	(no_connect
+		(at 185.42 138.43)
+		(uuid "53d775b1-839f-476a-a573-6a83e1b4c5c5")
 	)
 	(wire
 		(pts
@@ -1760,6 +2063,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 135.89) (xy 212.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e42da50-4038-4b0a-9680-1a3dea374bd6")
+	)
+	(wire
+		(pts
 			(xy 58.42 154.305) (xy 64.77 154.305)
 		)
 		(stroke
@@ -1797,6 +2110,16 @@
 			(type default)
 		)
 		(uuid "129141ce-54d9-402e-9fd6-00be7928096d")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15753141-90d8-4408-bdb7-579a358fa255")
 	)
 	(wire
 		(pts
@@ -1900,6 +2223,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 133.35) (xy 212.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d685ef-56e8-4240-8fee-13a8ac2b2444")
+	)
+	(wire
+		(pts
 			(xy 108.204 151.765) (xy 107.95 151.765)
 		)
 		(stroke
@@ -1927,6 +2260,16 @@
 			(type default)
 		)
 		(uuid "2896ea0a-d709-40e5-b729-35c59c6c6097")
+	)
+	(wire
+		(pts
+			(xy 212.09 137.16) (xy 213.995 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29db6141-fbb1-4baf-a6e0-9345f8701efd")
 	)
 	(wire
 		(pts
@@ -1970,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df6f3fa-c325-4e6c-ae38-ab97051bc566")
+	)
+	(wire
+		(pts
 			(xy 113.284 66.675) (xy 113.792 66.675)
 		)
 		(stroke
@@ -1977,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "352cda21-dedb-4485-a43f-d833b809d07b")
+	)
+	(wire
+		(pts
+			(xy 185.42 133.35) (xy 182.245 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36509b04-1cb0-422f-aef3-29125e9ca4b3")
 	)
 	(wire
 		(pts
@@ -2010,6 +2373,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 91.44) (xy 182.245 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea0d8b4-c10e-4453-9ff8-698f1ad2d0d8")
+	)
+	(wire
+		(pts
 			(xy 123.825 135.255) (xy 123.825 131.445)
 		)
 		(stroke
@@ -2017,6 +2390,16 @@
 			(type default)
 		)
 		(uuid "3fe75e46-791f-4ca1-9d95-5142785b8d53")
+	)
+	(wire
+		(pts
+			(xy 213.995 132.08) (xy 220.345 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40847ef4-35fb-4610-9ee9-1764be6087d8")
 	)
 	(wire
 		(pts
@@ -2057,6 +2440,16 @@
 			(type default)
 		)
 		(uuid "4924264c-f9b8-4fe6-9ad3-2cfcd1706360")
+	)
+	(wire
+		(pts
+			(xy 212.09 91.44) (xy 212.09 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4d6188-c51f-4fb5-a0e1-69f688b749ec")
 	)
 	(wire
 		(pts
@@ -2150,6 +2543,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 88.9) (xy 212.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63387cb4-90ae-4e58-96ec-70706fca34c3")
+	)
+	(wire
+		(pts
+			(xy 212.09 135.89) (xy 212.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6595c5c4-b121-4c6b-b9df-059d8d870be4")
+	)
+	(wire
+		(pts
 			(xy 116.205 131.445) (xy 117.475 131.445)
 		)
 		(stroke
@@ -2157,6 +2570,16 @@
 			(type default)
 		)
 		(uuid "66a2f3e0-e573-4cd4-9d8f-26c1c43f7c48")
+	)
+	(wire
+		(pts
+			(xy 213.995 137.16) (xy 220.345 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67af996d-82cc-4f83-aa81-7e6c8b708514")
 	)
 	(wire
 		(pts
@@ -2270,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 130.81) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7515c410-18fc-4f7f-9b02-b51ca70162c0")
+	)
+	(wire
+		(pts
 			(xy 116.205 127.635) (xy 116.205 131.445)
 		)
 		(stroke
@@ -2350,6 +2783,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 91.44) (xy 182.245 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f371fea-9d78-4e78-b008-523e8ac0d10f")
+	)
+	(wire
+		(pts
+			(xy 212.09 132.08) (xy 213.995 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8026c16a-5fb2-47cb-b7b4-10ac331d41d2")
+	)
+	(wire
+		(pts
 			(xy 107.95 131.445) (xy 109.22 131.445)
 		)
 		(stroke
@@ -2357,6 +2810,26 @@
 			(type default)
 		)
 		(uuid "844db101-c574-4d4f-a101-b3f123d0a301")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 212.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846562fd-6b0a-478b-83f0-6a6a32e4f3e3")
+	)
+	(wire
+		(pts
+			(xy 210.82 138.43) (xy 212.09 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877c641c-73ca-41ce-964a-04876d12f246")
 	)
 	(polyline
 		(pts
@@ -2450,6 +2923,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 95.25) (xy 213.995 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56fe8df-d7f6-4214-9989-79150f463a5e")
+	)
+	(wire
+		(pts
 			(xy 118.745 46.355) (xy 120.015 46.355)
 		)
 		(stroke
@@ -2477,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "a732510e-fdf1-4da9-bf56-643c3efdbdac")
+	)
+	(wire
+		(pts
+			(xy 182.245 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a876900e-63fd-49a5-927b-c6685fd5f9f2")
 	)
 	(wire
 		(pts
@@ -2530,6 +3023,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.995 95.25) (xy 220.345 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e2faec-08f3-420c-a527-13c977e9388a")
+	)
+	(wire
+		(pts
 			(xy 39.116 146.685) (xy 40.64 146.685)
 		)
 		(stroke
@@ -2550,6 +3053,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 133.35) (xy 182.245 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b352fe-1d77-4d66-84af-5ca412f145d9")
+	)
+	(wire
+		(pts
 			(xy 85.09 66.675) (xy 97.79 66.675)
 		)
 		(stroke
@@ -2557,6 +3070,16 @@
 			(type default)
 		)
 		(uuid "bbff1be4-3477-42b0-a318-90b08d8dd929")
+	)
+	(wire
+		(pts
+			(xy 210.82 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdee031f-6601-458d-a53c-24a7afb7cb46")
 	)
 	(wire
 		(pts
@@ -2590,6 +3113,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.995 90.17) (xy 220.345 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75e1b72-b645-4b72-bd32-e65e625fd524")
+	)
+	(wire
+		(pts
 			(xy 85.09 146.685) (xy 116.205 146.685)
 		)
 		(stroke
@@ -2620,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 93.98) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde250c4-ebe0-44c8-9640-42e2ca790cd8")
+	)
+	(wire
+		(pts
 			(xy 97.79 151.765) (xy 97.79 161.925)
 		)
 		(stroke
@@ -2627,6 +3170,16 @@
 			(type default)
 		)
 		(uuid "cf019c11-33ee-4109-9d78-a906ee2f7253")
+	)
+	(wire
+		(pts
+			(xy 198.12 74.295) (xy 198.12 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5a0506-7e17-4368-ab2c-ec6c5e05fea2")
 	)
 	(wire
 		(pts
@@ -2690,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 93.98) (xy 182.245 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d724981b-7c88-481e-97aa-b22c2f5be70e")
+	)
+	(wire
+		(pts
 			(xy 58.42 154.305) (xy 58.42 157.48)
 		)
 		(stroke
@@ -2707,6 +3270,16 @@
 			(type default)
 		)
 		(uuid "d9e2628a-b57f-4911-998f-a05471a474e2")
+	)
+	(wire
+		(pts
+			(xy 212.09 90.17) (xy 213.995 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1bcf81-5576-4a0c-ba16-e1ea575e5404")
 	)
 	(polyline
 		(pts
@@ -2790,6 +3363,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 135.89) (xy 182.245 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb5cd2e-ecdf-413c-9343-081dff96abfb")
+	)
+	(wire
+		(pts
+			(xy 182.245 135.89) (xy 185.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf1e4f7-dc69-4e7e-a506-90fe632465b6")
+	)
+	(wire
+		(pts
 			(xy 40.64 157.48) (xy 40.64 154.305)
 		)
 		(stroke
@@ -2797,6 +3390,16 @@
 			(type default)
 		)
 		(uuid "ee19e7f6-d4a8-4b1a-8e44-5c81af511265")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.205) (xy 198.12 116.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29fbb66-7577-48c8-a039-fa1724068dad")
 	)
 	(wire
 		(pts
@@ -2952,22 +3555,22 @@
 	)
 	(global_label "PWM2_N"
 		(shape input)
-		(at 64.77 141.605 180)
+		(at 220.345 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5272d9bc-dffd-4604-b732-b7492c8b9578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.6764 141.5256 0)
+			(at 231.0106 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3082,6 +3685,28 @@
 			)
 		)
 	)
+	(global_label "PWM2"
+		(shape input)
+		(at 64.77 139.065 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bcf6cc1-c02a-4663-bcac-cd3e6defc1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.4025 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLT"
 		(shape input)
 		(at 64.77 61.595 180)
@@ -3128,22 +3753,22 @@
 	)
 	(global_label "PWM1_N"
 		(shape input)
-		(at 64.77 56.515 180)
+		(at 220.345 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b2058eda-89a4-40d7-8275-1e69ed566d30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.6764 56.4356 0)
+			(at 231.0106 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3192,9 +3817,9 @@
 			)
 		)
 	)
-	(global_label "PWM2_P"
-		(shape input)
-		(at 64.77 139.065 180)
+	(global_label "PWM2"
+		(shape output)
+		(at 185.42 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3202,9 +3827,75 @@
 			)
 			(justify right)
 		)
+		(uuid "c54dbfac-cf25-4983-84b1-cbc0f047e4e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.0525 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM2_P"
+		(shape input)
+		(at 220.345 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "cb82d10c-44cc-48b9-b88e-28c1d88c4906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7369 138.9856 0)
+			(at 230.9501 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape output)
+		(at 185.42 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e22613d1-ce48-4d00-b32c-da46fe7843e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.0525 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 64.77 53.975 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e42eaf93-165f-4b54-acc0-1390809dd4ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.4025 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,22 +3907,22 @@
 	)
 	(global_label "PWM1_P"
 		(shape input)
-		(at 64.77 53.975 180)
+		(at 220.345 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e8daee18-28bc-463e-a79f-584fe029999f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7369 53.8956 0)
+			(at 230.9501 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3659,6 +4350,208 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1814af67-6228-45bd-a01c-5c0b4065f4cf")
+		(property "Reference" "#PWR083"
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6cfbb26-8274-4978-afa1-22b0fa23ba0c")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.995 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b761037-04af-4484-b0e9-63b40a0773cc")
+		(property "Reference" "R30"
+			(at 215.5698 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 215.5698 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.995 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.995 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.995 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd223f3-8eb9-4a8e-9625-035e4c34722c")
+		)
+		(pin "2"
+			(uuid "ff4e6e3e-356b-471d-a463-9c2892ebb4c3")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 116.332 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b9ad2d6-3487-400f-91c1-cd1b9caf95e0")
+		(property "Reference" "#PWR086"
+			(at 198.12 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.088 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bafe28a2-4699-4ec8-a0f0-b39f66b9e450")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 95.25 80.645 0)
 		(unit 1)
@@ -3788,6 +4681,73 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f7cd572-140d-4828-ab09-245d67ceff7f")
+		(property "Reference" "#PWR089"
+			(at 212.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f366749-302c-4715-954a-8c69906b5c14")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -3929,6 +4889,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 198.12 74.422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e6b72a0-ced3-405b-aadd-5fbb9430626c")
+		(property "Reference" "#PWR044"
+			(at 198.12 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.088 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d091b37-4d42-4e86-8e67-4ded2437c8b0")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 107.95 46.355 270)
 		(unit 1)
@@ -3990,6 +5016,71 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 111.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ae17df4-bd01-4416-a1da-00d9d06f79b2")
+		(property "Reference" "#PWR085"
+			(at 198.12 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 197.866 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e47b8377-36fe-4bc0-8dba-7b6197432b3b")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4175,6 +5266,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 141.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "502a9358-745c-4b06-a7ff-3cb4340b0d61")
+		(property "Reference" "#PWR090"
+			(at 58.42 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.912 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39321592-b872-4edd-ad98-afd48517014b")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 43.18 146.685 90)
 		(unit 1)
@@ -4236,6 +5393,144 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADM1485JRZ:ADM1485JRZ")
+		(at 198.12 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63eb1285-d1d0-47ae-9ba9-5229d0d79299")
+		(property "Reference" "D13"
+			(at 198.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM1485JRZ"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 219.71 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1485.pdf"
+			(at 219.71 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ANALOG DEVICES - ADM1485JRZ - Differential Line Transceiver RS485, High Speed, Low Power, 2 Drivers,  4.75V-5.25V supply, SOIC-8"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 219.71 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 219.71 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADM1485JRZ"
+			(at 219.71 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ADM1485JRZ"
+			(at 219.71 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/adm1485jrz/analog-devices?region=europe"
+			(at 219.71 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "535d6615-800d-44bf-a1fa-4933b9f4be38")
+		)
+		(pin "3"
+			(uuid "8f64f1d3-c4b2-4c41-bc97-6b828556caf3")
+		)
+		(pin "8"
+			(uuid "4623a10a-f2d6-42f2-9339-2484a5c67347")
+		)
+		(pin "6"
+			(uuid "881f7696-11dc-4dd0-ad7e-3be43b6f4e28")
+		)
+		(pin "5"
+			(uuid "9dca8b6d-cf18-4ce1-a5c3-b552cf712371")
+		)
+		(pin "1"
+			(uuid "17dbbed9-555f-4861-959d-e8d21f303efa")
+		)
+		(pin "2"
+			(uuid "3220fe6c-f948-480e-a85e-b43ea6cd4db0")
+		)
+		(pin "4"
+			(uuid "283fcfec-7192-4c8d-8e6b-bb22cd6093c4")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4847,6 +6142,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.995 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8def8674-08d8-463c-8b8b-ff91e3bce965")
+		(property "Reference" "R31"
+			(at 215.5698 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 215.5698 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.995 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.995 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.995 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033a8f84-4134-46c5-af04-d3e72c79340a")
+		)
+		(pin "2"
+			(uuid "db173327-95f5-43a8-ad52-8bebcf1a0858")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 53.34 71.755 180)
 		(unit 1)
@@ -4974,6 +6338,73 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 56.515 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9986f5f7-4c35-49ff-9387-cf7d46912182")
+		(property "Reference" "#PWR084"
+			(at 58.42 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.452 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4c39f8-9bf9-44c5-a6d9-c98721a86228")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5490,6 +6921,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b74f0112-2bb2-4d0c-850d-01fb51545b20")
+		(property "Reference" "C9"
+			(at 199.898 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 199.898 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 198.12 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "911d62f5-aa89-4254-8dbc-6fcdd76d284c")
+		)
+		(pin "2"
+			(uuid "a4485b44-1c53-468d-81e4-9a7535597d3b")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 157.48 0)
 		(unit 1)
@@ -5683,6 +7183,137 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 212.09 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6420fc2-3acb-40af-9707-0fe4e4ca3c15")
+		(property "Reference" "#PWR070"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 211.836 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff89f24-4bbc-42e2-81bc-3000d73415c9")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.245 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9fe8f6f-f84b-4b1b-ba07-1a25dfb631dd")
+		(property "Reference" "#PWR082"
+			(at 182.245 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5122406-327b-4daa-9841-bfb555b15930")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6028,6 +7659,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dea4be42-f105-46c2-854d-97f9b7670407")
+		(property "Reference" "C11"
+			(at 199.898 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 199.898 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 198.12 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068637db-9e63-4bbf-b263-0f846a7dd90c")
+		)
+		(pin "2"
+			(uuid "36864a74-949e-4eb5-a405-a47e6e48cbf1")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 105.41 131.445 270)
 		(unit 1)
@@ -6156,6 +7856,209 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADM1485JRZ:ADM1485JRZ")
+		(at 198.12 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e842ea68-818c-4de6-a044-959e2247fee7")
+		(property "Reference" "D15"
+			(at 198.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM1485JRZ"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 219.71 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1485.pdf"
+			(at 219.71 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ANALOG DEVICES - ADM1485JRZ - Differential Line Transceiver RS485, High Speed, Low Power, 2 Drivers,  4.75V-5.25V supply, SOIC-8"
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 219.71 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 219.71 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ADM1485JRZ"
+			(at 219.71 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ADM1485JRZ"
+			(at 219.71 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/adm1485jrz/analog-devices?region=europe"
+			(at 219.71 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "92e236c3-a376-490a-be0b-8147c97fc3ed")
+		)
+		(pin "3"
+			(uuid "57d3f7a8-75f1-446c-a258-f03009e9ee02")
+		)
+		(pin "8"
+			(uuid "32a01b9f-a7ef-4544-9188-1f1dd99c0ca2")
+		)
+		(pin "6"
+			(uuid "85eeed17-29af-4e02-9073-f32256a79036")
+		)
+		(pin "5"
+			(uuid "5ea099f5-9dc5-4bb9-84c9-e6cc7b141d93")
+		)
+		(pin "1"
+			(uuid "2fc14e24-bcd9-4e7d-ab0a-7043af1f22c2")
+		)
+		(pin "2"
+			(uuid "aa89e335-96f8-4f0c-8e24-53db4600aaf3")
+		)
+		(pin "4"
+			(uuid "307652bd-4481-4555-99e1-b442b3b67758")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 212.09 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9822a0f-ec12-4f9e-94ac-726877e11a3b")
+		(property "Reference" "#PWR087"
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 211.836 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "843d4386-e14e-4742-84ad-8a94ac879fc3")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6489,6 +8392,137 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.245 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb5c6576-d762-4d83-9e19-542f1dcaac6f")
+		(property "Reference" "#PWR088"
+			(at 182.245 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.245 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ce9997-0900-45d0-99e3-2fed68223cc6")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 69.215 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb6f6674-b785-4ec2-a3bc-d3771426707f")
+		(property "Reference" "#PWR014"
+			(at 198.12 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 197.866 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a563a736-4d65-43d0-abbe-916534a607d4")
+		)
+		(instances
+			(project "Driver_Inductor"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/03ae6270-16a0-4912-8b3e-42cc6f739a16"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

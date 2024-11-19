@@ -746,8 +746,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 142.875 97.155 90)
+		(property "Value" "4.7k"
+			(at 142.875 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db02e1c-8c66-46b2-99f5-4b537fe45cac")
 		(property "Reference" "Q1"
-			(at 157.48 95.8849 0)
+			(at 157.48 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,8 +880,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLML2402TRPBF"
-			(at 157.48 98.4249 0)
+		(property "Value" "BC817"
+			(at 157.48 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)

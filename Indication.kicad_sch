@@ -1483,7 +1483,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 80.137 58.293 0)
 			(effects
 				(font
@@ -2419,15 +2419,15 @@
 		(fields_autoplaced yes)
 		(uuid "a76f0fab-756e-4796-84d4-90325500f404")
 		(property "Reference" "D14"
-			(at 231.648 88.265 0)
+			(at 231.648 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADM3485E"
-			(at 231.648 90.805 0)
+		(property "Value" "ADM1485JRZ"
+			(at 231.648 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 79.121 130.683 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 79.121 106.045 0)
 			(effects
 				(font

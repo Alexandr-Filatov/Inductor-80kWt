@@ -11978,7 +11978,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "933290f7-2418-4e41-9df2-dd4437a9ff07")
 			(effects
@@ -11989,7 +11989,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "1f5bfa67-fcd1-45ad-89a3-351b63852026")
 			(effects
@@ -12144,7 +12144,7 @@
 			(uuid "a74d7b9b-1515-40fe-9c2f-4cb789c63e48")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "17e6d7e5-1006-4a73-b3d4-a2fa3657a35d")
 			(effects
@@ -14228,7 +14228,7 @@
 			)
 		)
 		(property "Value" "ADM1485JRZ"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "295896ee-5291-4742-bdb9-1858c74bfaba")
 			(effects
@@ -14489,7 +14489,7 @@
 			(uuid "512c9b36-0c53-4503-8ba6-a27bfd224a71")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8c9b5c60-6f3e-4bc5-bb81-4ef8919d23de")
 			(effects
@@ -14811,7 +14811,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 -1.6 360)
+			(at 0 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "74ac4b13-019a-45d2-befe-267f7b60ec20")
 			(effects
@@ -14822,7 +14822,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "808ce5c4-0a17-4574-b7d0-94909a5af659")
 			(effects
@@ -14977,7 +14977,7 @@
 			(uuid "ee26b0ce-843c-41b6-8f1d-23704cfc80bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "29ca4da7-88fb-4edd-a4b4-7531808e591a")
 			(effects
@@ -17038,7 +17038,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1224), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 vertical")
 		(property "Reference" "J1"
-			(at 7.5 -3.67 0)
+			(at 7.5 7.82 0)
 			(layer "F.SilkS")
 			(uuid "4f9b6056-b196-44b2-80f7-f1d5d761ffa4")
 			(effects

@@ -3145,7 +3145,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "K78xxM-1000R3"
+		(property "Value" "K7805M-1000R3"
 			(at 46.355 118.745 90)
 			(effects
 				(font

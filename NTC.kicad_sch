@@ -3875,15 +3875,15 @@
 		(fields_autoplaced yes)
 		(uuid "a07fd885-8c3a-46dd-bdcd-c8094e768d55")
 		(property "Reference" "D19"
-			(at 210.312 81.534 0)
+			(at 210.312 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADM3485E"
-			(at 210.312 84.074 0)
+		(property "Value" "ADM1485JRZ"
+			(at 210.312 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

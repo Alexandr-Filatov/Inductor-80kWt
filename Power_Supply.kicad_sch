@@ -3146,7 +3146,7 @@
 			)
 		)
 		(property "Value" "K7805M-1000R3"
-			(at 46.355 118.745 90)
+			(at 48.26 118.745 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3154,7 +3154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mornsun:K78xx-1000R3"
+		(property "Footprint" "Mornsun:K78xxM-1000R3"
 			(at 59.309 125.857 0)
 			(effects
 				(font

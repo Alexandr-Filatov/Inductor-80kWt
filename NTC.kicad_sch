@@ -2573,15 +2573,15 @@
 		(fields_autoplaced yes)
 		(uuid "3e6d2843-714c-4d27-831a-a93b48ca1d85")
 		(property "Reference" "U5"
-			(at 172.085 88.265 0)
+			(at 172.085 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADuM1200AR"
-			(at 172.085 90.805 0)
+		(property "Value" "SCM3728ASA"
+			(at 172.085 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3882,7 @@
 				)
 			)
 		)
-		(property "Value" "ADM1485JRZ"
+		(property "Value" "SN65HVD3082EDR"
 			(at 210.312 85.09 0)
 			(effects
 				(font

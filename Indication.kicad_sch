@@ -1774,7 +1774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FYLS-0805UBC"
+		(property "Description" "LTST-C171TBKT"
 			(at 76.2 136.398 0)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KP-2012SURCK"
+		(property "Description" "EC04-0805QRC/E-AV"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Value" "ADM1485JRZ"
+		(property "Value" "SN65HVD3082EDR"
 			(at 231.648 91.44 0)
 			(effects
 				(font

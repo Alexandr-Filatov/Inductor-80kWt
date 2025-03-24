@@ -4664,7 +4664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "100p"
 			(at 176.53 121.285 0)
 			(effects
 				(font
@@ -5645,15 +5645,15 @@
 		(fields_autoplaced yes)
 		(uuid "63eb1285-d1d0-47ae-9ba9-5229d0d79299")
 		(property "Reference" "D13"
-			(at 263.525 163.195 0)
+			(at 263.525 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADM1485JRZ"
-			(at 263.525 165.735 0)
+		(property "Value" "SN65HVD3082EDR"
+			(at 263.525 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "100p"
 			(at 175.768 202.565 90)
 			(effects
 				(font
@@ -8476,15 +8476,15 @@
 		(fields_autoplaced yes)
 		(uuid "e842ea68-818c-4de6-a044-959e2247fee7")
 		(property "Reference" "D15"
-			(at 263.525 80.645 0)
+			(at 263.525 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ADM1485JRZ"
-			(at 263.525 83.185 0)
+		(property "Value" "SN65HVD3082EDR"
+			(at 263.525 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

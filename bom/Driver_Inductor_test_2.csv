@@ -1,0 +1,42 @@
+Reference	Value	Footprint	Qty	Описание
+C1,C2	0.1u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	2	
+C3,C4,C7,C8,C33	56p	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	5	
+C5,C6	100p	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	2	
+C9,C11,C15,C16,C30,C31,C34,C35,C36	2.2u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	9	
+C10	1u	Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4	1	B32674D6105K000
+C12,C13	47n	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	2	Unpolarized capacitor, small symbol
+C14,C19,C21,C29,C37	1u	Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder	5	630V
+C17,C18,C20,C22,C23,C24,C25,C26	10u	Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder	8	
+C27	4.7u	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	1	
+C28	1n	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	1	
+C32	10n	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	1	
+D1,D2	NSI6651ASC-DSWR	Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm	2	NSI6651ASC-DSWR
+D3,D4	MMSZ5240B	Diode_SMD:D_SOD-123	2	MMSZ5240B
+D5,D7	MURS160	Diode_SMD:D_SMA	2	
+D6	SN74AHC1G08DBVR	Package_TO_SOT_SMD:SOT-23-5	1	
+D8,D11	WRA1215S-3WR2	Mornsun:WRA_S-3WR2	2	WRA1215S-3WR2
+D9	FLT	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1	KP-2012SURCK
+D10	RDY	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1	FYLS-0805UBC
+D12	K7805M-1000R3	Mornsun:K78xxM-1000R3	1	K78xxM-1000R3
+D13,D14,D15,D19	SN65HVD3082EDR	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	4	-- смешанные значения --
+D16,D18	1SMB5919B	Diode_SMD:D_SOD-323_HandSoldering	2	Zener diode, small symbol
+D17	NSM2011-50B5R-DSWR	Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm	1	NSM2011-50B5R-DSWR
+D20	GD50FFY120C5S	IGBT_Modul:GD50FFY120C5S	1	
+J1	Control_A	Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical	1	SCT3001WV-2x06P
+J2	DC+	Connector_My:Bush_M4	1	
+J3	DC-	Connector_My:Bush_M4	1	
+J4	OUT1	Connector_My:Bush_M4	1	
+J5	OUT2	Connector_My:Bush_M4	1	
+Q1	BC817	Package_TO_SOT_SMD:SOT-23	1	IRLML2402TRPBF
+R1,R2,R23,R29,R30,R31	120	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	6	
+R3,R4,R5,R6,R15,R16,R17,R18,R19,R20,R21,R22	47	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	12	
+R7,R8	1.6k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	2	
+R9,R10	0.5	Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder	2	Resistor
+R11,R14,R32	1k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3	-- смешанные значения --
+R12,R35,R36,R37,R38	560	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	5	
+R13,R25,R26,R27,R33,R34	10k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	6	
+R24	4.7k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	1	Resistor, small symbol
+R28	2.2k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	1	
+U3	LM1117GS-5.0	Package_TO_SOT_SMD:SOT-223	1	LM1117GS-5.0
+U4	LMV7219M5	Package_TO_SOT_SMD:SOT-23-5	1	LMV7219M5
+U5	SCM3728ASA	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	1	ADuM1200AR

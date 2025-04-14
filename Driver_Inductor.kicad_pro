@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "Docs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D/Driver_Inductor.step",

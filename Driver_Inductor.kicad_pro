@@ -659,7 +659,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://gost_landscape.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
@@ -676,30 +676,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
-    ],
-    [
-      "03ae6270-16a0-4912-8b3e-42cc6f739a16",
-      "Driver"
-    ],
-    [
-      "d3d3b824-9642-41e5-a8fc-92a46f2bf423",
-      "Indication"
-    ],
-    [
-      "3cec1242-fefd-45f9-be37-dfaa3b57a7d8",
-      "Power_Supply"
-    ],
-    [
-      "f22fd56a-8e7f-4f43-9aa2-78a89a0e3ba2",
-      "Current_Sensor"
-    ],
-    [
-      "9a7ef819-c83f-4510-876a-a387e9bdacfd",
-      "NTC"
-    ],
-    [
-      "cb537d0a-be40-4038-86f7-62065d47d4b4",
-      "Reset"
     ]
   ],
   "text_variables": {}

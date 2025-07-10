@@ -513,7 +513,7 @@
       "plot": "Docs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3D/Driver_Inductor.step",
+      "step": "3D/Driver_Inductor_VER2.2_light.step",
       "svg": "",
       "vrml": ""
     },
@@ -660,7 +660,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://gost_landscape.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "Docs/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,

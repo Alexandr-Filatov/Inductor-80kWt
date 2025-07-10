@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A2")
+	(title_block
+		(title "Плата драйверов модуля обмотки возбуждения")
+		(company "ООО \"Электротранспортные технологии\"")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.220 Э3")
+		(comment 2 "Филатов А.С.")
+		(comment 3 "Сизякин А.В.")
+		(comment 4 "Коваленко В.А.")
+		(comment 6 "Зубков Д.Н.")
+	)
 	(lib_symbols
 		(symbol "ADM1485JRZ:ADM1485JRZ"
 			(exclude_from_sim no)
@@ -6428,6 +6437,16 @@
 		)
 		(uuid "0cc1230a-c57d-4a07-bbb6-ba715d19ae40")
 	)
+	(text "Схема электрическая принципиальная"
+		(exclude_from_sim no)
+		(at 503.682 394.97 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1c99b62d-da0d-47d2-b165-96c7f05cb45c")
+	)
 	(text "Датчик тока "
 		(exclude_from_sim no)
 		(at 441.96 235.966 0)
@@ -6497,6 +6516,16 @@
 			)
 		)
 		(uuid "8ace2e8a-207a-4c7b-9b1f-f2f456c33765")
+	)
+	(text "НВЦТ.EVP150-2-1.2000.220"
+		(exclude_from_sim no)
+		(at 16.51 159.004 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8ec1712f-1d85-4a61-aa10-42641c6d7e78")
 	)
 	(text "Ошибка драйверо"
 		(exclude_from_sim no)

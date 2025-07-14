@@ -6,7 +6,6 @@
 	(paper "A2")
 	(title_block
 		(title "Плата драйверов модуля обмотки возбуждения")
-		(company "ООО \"Электротранспортные технологии\"")
 		(comment 1 "НВЦТ.EVP150-2-1.2000.220 Э3")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В.")
@@ -6437,6 +6436,16 @@
 		)
 		(uuid "0cc1230a-c57d-4a07-bbb6-ba715d19ae40")
 	)
+	(text "технологии\""
+		(exclude_from_sim no)
+		(at 563.88 409.702 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "0f257643-d6c4-4cfe-92b9-13483a99a375")
+	)
 	(text "Схема электрическая принципиальная"
 		(exclude_from_sim no)
 		(at 503.682 394.97 0)
@@ -6527,6 +6536,16 @@
 		)
 		(uuid "8ec1712f-1d85-4a61-aa10-42641c6d7e78")
 	)
+	(text "ООО \"Электротранспортные"
+		(exclude_from_sim no)
+		(at 563.88 405.892 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "9a53c92f-2e08-45fd-bcff-c0da3288422f")
+	)
 	(text "Ошибка драйверо"
 		(exclude_from_sim no)
 		(at 277.876 235.966 0)
@@ -6566,6 +6585,16 @@
 			)
 		)
 		(uuid "eebb331d-fba8-4ba2-8c09-237b5ea8feaf")
+	)
+	(text "1. Перечень элементтов см. НВЦТ.EVP150-2-1.2000.220 ПЭ3."
+		(exclude_from_sim no)
+		(at 467.36 339.598 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "fe480da0-519e-4df2-897f-0f3ae235e81f")
 	)
 	(junction
 		(at 356.87 181.61)

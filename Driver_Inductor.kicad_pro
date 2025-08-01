@@ -513,7 +513,7 @@
       "plot": "Docs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3D/Driver_Inductor_VER2.2_light.step",
+      "step": "3D/Module_Inductor_VER2.2.step",
       "svg": "",
       "vrml": ""
     },

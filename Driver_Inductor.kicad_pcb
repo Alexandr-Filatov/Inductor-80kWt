@@ -10459,7 +10459,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/M719.stp"
-			(hide yes)
 			(offset
 				(xyz 35.5 -3.5 -1.5)
 			)

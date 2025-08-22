@@ -89,17 +89,6 @@
 		(layer "F.SilkS")
 		(uuid "200470e5-b8c1-438a-a53c-38db53d0c725")
 	)
-	(fp_circle
-		(center -7.6 -6.1)
-		(end -7.6 -6.35)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f08ac9a9-f559-4e55-96c5-9a687e768b29")
-	)
 	(fp_text user "Vin"
 		(at -8.3 -3.137585 0)
 		(unlocked yes)
@@ -148,19 +137,6 @@
 			(font
 				(size 0.762 0.762)
 				(thickness 0.1016)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "QA"
-		(at -3.65 1.47446 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "9f504885-b308-4192-bf59-e4bb17357271")
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.1524)
 			)
 			(justify left bottom)
 		)

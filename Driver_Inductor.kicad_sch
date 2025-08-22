@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Плата драйверов модуля обмотки возбуждения")
-		(comment 1 "НВЦТ.EVP150-2-1.2000.220 Э3")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.220 Э3_v2.3")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В.")
 		(comment 4 "Коваленко В.А.")
@@ -6805,7 +6805,7 @@
 		)
 		(uuid "eebb331d-fba8-4ba2-8c09-237b5ea8feaf")
 	)
-	(text "1. Перечень элементтов см. НВЦТ.EVP150-2-1.2000.220 ПЭ3."
+	(text "1. Перечень элементтов см. НВЦТ.EVP150-2-1.2000.220 ПЭ3_v2.3."
 		(exclude_from_sim no)
 		(at 467.36 339.598 0)
 		(effects
@@ -6948,12 +6948,6 @@
 		(uuid "2d7cf305-0cab-410f-8ad2-30ac3828aa52")
 	)
 	(junction
-		(at 127.254 99.695)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2efff781-3418-4f2c-b83e-7fd96b33d27f")
-	)
-	(junction
 		(at 191.77 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7014,34 +7008,10 @@
 		(uuid "49c731bc-017d-4695-babb-640b91d2b809")
 	)
 	(junction
-		(at 127.127 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bfb7dc8-644a-4627-8b5d-095979194f95")
-	)
-	(junction
 		(at 307.34 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c126a67-b6a8-46ce-bf44-bd215bf84410")
-	)
-	(junction
-		(at 127.127 194.945)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca178c2-2daa-472c-a515-42b96c9de43d")
-	)
-	(junction
-		(at 134.112 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "550c762f-ecf2-4227-911c-a4334e6ea7c6")
-	)
-	(junction
-		(at 134.112 99.695)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5696cff1-c882-4a4a-85b6-759e9b7a7481")
 	)
 	(junction
 		(at 315.722 264.414)
@@ -7128,12 +7098,6 @@
 		(uuid "86810546-a42c-4e67-9101-4a1442bcc835")
 	)
 	(junction
-		(at 134.747 194.945)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86dc20da-757b-4372-b450-f2cdb45ae31d")
-	)
-	(junction
 		(at 151.13 287.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7156,12 +7120,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f901aa-e71d-4d1d-a48e-6aa2c1a292ef")
-	)
-	(junction
-		(at 127.127 182.245)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95619c2e-3601-4dde-958b-81c986fb653b")
 	)
 	(junction
 		(at 382.27 269.24)
@@ -7234,12 +7192,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdb9099a-27fe-48cc-b23d-a58313a1ab29")
-	)
-	(junction
-		(at 134.747 182.245)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5298d47-0a84-462f-b321-84de57655345")
 	)
 	(junction
 		(at 415.29 101.6)
@@ -7546,16 +7498,6 @@
 			(type default)
 		)
 		(uuid "107e4992-ebec-4046-807a-b96b9994dfa4")
-	)
-	(wire
-		(pts
-			(xy 127.127 198.755) (xy 127.127 194.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108557fa-5d5f-4e12-8164-42bc056fc6a8")
 	)
 	(wire
 		(pts
@@ -8339,16 +8281,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.842 116.205) (xy 134.112 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592fbd41-8020-43d0-a30d-d3233aa6dcaf")
-	)
-	(wire
-		(pts
 			(xy 187.96 259.08) (xy 187.96 254)
 		)
 		(stroke
@@ -8639,16 +8571,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.747 194.945) (xy 134.747 198.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b239e4-b89a-45be-8912-a2db2407fb9d")
-	)
-	(wire
-		(pts
 			(xy 313.436 272.034) (xy 314.706 272.034)
 		)
 		(stroke
@@ -8666,16 +8588,6 @@
 			(type default)
 		)
 		(uuid "762fff89-440f-4791-af79-de8eaf56d899")
-	)
-	(wire
-		(pts
-			(xy 134.747 198.755) (xy 133.477 198.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c3336b-7519-473e-87d6-e71aed65759c")
 	)
 	(wire
 		(pts
@@ -8809,16 +8721,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.842 95.885) (xy 134.112 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852dbe47-c6f8-461a-bb60-09f3ecd9d665")
-	)
-	(wire
-		(pts
 			(xy 239.522 188.595) (xy 240.792 188.595)
 		)
 		(stroke
@@ -8879,16 +8781,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.477 178.435) (xy 134.747 178.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89aea97b-fd41-44be-abaf-3e1f0048b9c6")
-	)
-	(wire
-		(pts
 			(xy 415.29 101.6) (xy 415.29 102.87)
 		)
 		(stroke
@@ -8906,26 +8798,6 @@
 			(type default)
 		)
 		(uuid "8bb07f34-f99f-4f42-8dc0-98bd70b5610d")
-	)
-	(wire
-		(pts
-			(xy 127.254 95.885) (xy 127.254 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c14b5a9-d679-4ce6-bc0f-2f1d53f8cad4")
-	)
-	(wire
-		(pts
-			(xy 128.397 198.755) (xy 127.127 198.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3ec8d0-3ab8-42d4-821e-499eb29146db")
 	)
 	(wire
 		(pts
@@ -9039,16 +8911,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.397 178.435) (xy 127.127 178.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978b5149-80dc-41f8-b884-02e67c7c4387")
-	)
-	(wire
-		(pts
 			(xy 166.37 292.1) (xy 165.1 292.1)
 		)
 		(stroke
@@ -9066,16 +8928,6 @@
 			(type default)
 		)
 		(uuid "996dfa90-c41d-4f94-b5f4-9644fa0f611c")
-	)
-	(wire
-		(pts
-			(xy 134.112 112.395) (xy 134.112 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9974e8d4-eb48-4fa2-b679-cef891baf6d0")
 	)
 	(wire
 		(pts
@@ -9146,16 +8998,6 @@
 			(type default)
 		)
 		(uuid "9d1f44bf-95ca-40db-83ca-18e5e924c4b4")
-	)
-	(wire
-		(pts
-			(xy 127.127 112.395) (xy 127.127 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d48798f-505e-4005-a659-d6c633808706")
 	)
 	(wire
 		(pts
@@ -9289,16 +9131,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.762 95.885) (xy 127.254 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d742d6-a33b-44d3-85c3-ca59cfc65d94")
-	)
-	(wire
-		(pts
 			(xy 133.477 219.075) (xy 133.477 217.805)
 		)
 		(stroke
@@ -9306,16 +9138,6 @@
 			(type default)
 		)
 		(uuid "a761ec9e-ceee-4677-b3ab-7cd6e5c265dd")
-	)
-	(wire
-		(pts
-			(xy 127.762 116.205) (xy 127.127 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bf2407-04f1-411e-9a2d-db1569bc57db")
 	)
 	(wire
 		(pts
@@ -9446,16 +9268,6 @@
 			(type default)
 		)
 		(uuid "b4f59304-1faf-4099-8ba4-68ce771d3fcb")
-	)
-	(wire
-		(pts
-			(xy 134.747 178.435) (xy 134.747 182.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5825950-edef-4c1b-9c12-339887802b17")
 	)
 	(wire
 		(pts
@@ -9706,16 +9518,6 @@
 			(type default)
 		)
 		(uuid "ce8fbe1d-21fc-400d-9a2b-873ddaa160f3")
-	)
-	(wire
-		(pts
-			(xy 134.112 95.885) (xy 134.112 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceda2fbc-f469-47e6-a91c-98d66f083943")
 	)
 	(wire
 		(pts
@@ -9996,16 +9798,6 @@
 			(type default)
 		)
 		(uuid "eceaf672-50e3-4fee-bf1d-354a0fd0725a")
-	)
-	(wire
-		(pts
-			(xy 127.127 178.435) (xy 127.127 182.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee72ebf9-ac23-4354-af0c-1b36410070d7")
 	)
 	(wire
 		(pts
@@ -12248,7 +12040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 192.7352 261.62 0)
 			(effects
 				(font
@@ -12421,74 +12213,6 @@
 			(project "Driver_Inductor"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.302 116.205 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bc7534a-c035-46f3-bcb1-07ac6adc7d24")
-		(property "Reference" "R22"
-			(at 130.302 114.427 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 130.302 116.205 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 130.302 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.302 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.302 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "756e24b9-603b-4b2f-a941-b4d60c88288a")
-		)
-		(pin "2"
-			(uuid "2a15c75b-15af-4172-9e62-2dcc0545c67b")
-		)
-		(instances
-			(project "Driver_Inductor"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13735,7 +13459,7 @@
 				)
 			)
 		)
-		(property "Value" "DC-"
+		(property "Value" "~"
 			(at 289.814 93.98 0)
 			(effects
 				(font
@@ -13762,6 +13486,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 289.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "DC-"
 			(at 289.56 96.52 0)
 			(effects
 				(font
@@ -13800,7 +13533,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "30"
 			(at 130.937 186.055 90)
 			(effects
 				(font
@@ -13999,7 +13732,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS160"
+		(property "Value" "~"
 			(at 110.49 129.54 0)
 			(effects
 				(font
@@ -14027,6 +13760,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.252 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MURS160"
 			(at 111.252 127 0)
 			(effects
 				(font
@@ -14067,7 +13809,7 @@
 				)
 			)
 		)
-		(property "Value" "DC+"
+		(property "Value" "~"
 			(at 289.814 82.55 0)
 			(effects
 				(font
@@ -14094,6 +13836,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 289.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "DC+"
 			(at 289.56 85.09 0)
 			(effects
 				(font
@@ -14335,7 +14086,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RDY"
+		(property "Value" "~"
 			(at 315.468 293.243 90)
 			(effects
 				(font
@@ -14364,6 +14115,24 @@
 		)
 		(property "Description" "FYLS-0805UBC"
 			(at 313.69 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "FYLS-0805UBC "
+			(at 313.69 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "RDY"
+			(at 313.69 292.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,7 +14172,7 @@
 				)
 			)
 		)
-		(property "Value" "Control_A"
+		(property "Value" "~"
 			(at 505.46 267.335 0)
 			(effects
 				(font
@@ -14431,6 +14200,24 @@
 			)
 		)
 		(property "Description" "SCT3001WV-2x06P"
+			(at 504.19 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Control_A"
+			(at 504.19 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SCT3001WV-2x06P "
 			(at 504.19 275.59 0)
 			(effects
 				(font
@@ -14679,7 +14466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 192.7352 281.94 0)
 			(effects
 				(font
@@ -15213,7 +15000,7 @@
 				)
 			)
 		)
-		(property "Value" "SCM3728ASA"
+		(property "Value" "~"
 			(at 391.16 188.595 0)
 			(effects
 				(font
@@ -15242,6 +15029,15 @@
 			)
 		)
 		(property "Description" "ADuM1200AR"
+			(at 391.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SCM3728ASA"
 			(at 391.16 198.12 0)
 			(effects
 				(font
@@ -15564,7 +15360,7 @@
 				)
 			)
 		)
-		(property "Value" "LMV7219M5"
+		(property "Value" "~"
 			(at 346.71 200.152 0)
 			(effects
 				(font
@@ -15593,6 +15389,15 @@
 			)
 		)
 		(property "Description" "LMV7219M5"
+			(at 342.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "LMV7219M5"
 			(at 342.9 195.58 0)
 			(effects
 				(font
@@ -15907,7 +15712,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 155.702 93.98 0)
 			(effects
 				(font
@@ -15934,6 +15739,15 @@
 			)
 		)
 		(property "Description" "NSI6651ASC-DSWR"
+			(at 155.702 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
 			(at 155.702 118.745 0)
 			(effects
 				(font
@@ -16083,7 +15897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240B"
+		(property "Value" "~"
 			(at 129.921 134.112 90)
 			(effects
 				(font
@@ -16113,6 +15927,15 @@
 		)
 		(property "Description" "MMSZ5240B"
 			(at 130.937 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MMSZ5240B"
+			(at 130.937 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16970,7 +16793,7 @@
 				)
 			)
 		)
-		(property "Value" "SN65HVD3082EDR"
+		(property "Value" "~"
 			(at 226.822 179.07 0)
 			(effects
 				(font
@@ -17057,6 +16880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Product Name" "SN65HVD3082EDR"
+			(at 226.822 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "535d6615-800d-44bf-a1fa-4933b9f4be38")
 		)
@@ -17109,7 +16941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240B"
+		(property "Value" "~"
 			(at 133.477 208.407 0)
 			(effects
 				(font
@@ -17138,6 +16970,15 @@
 			)
 		)
 		(property "Description" "MMSZ5240B"
+			(at 130.937 212.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MMSZ5240B"
 			(at 130.937 212.725 0)
 			(effects
 				(font
@@ -17587,7 +17428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "~"
 			(at 385.445 276.86 0)
 			(effects
 				(font
@@ -17619,6 +17460,15 @@
 			)
 		)
 		(property "Description" "IRLML2402TRPBF"
+			(at 379.73 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "BC817"
 			(at 379.73 275.59 0)
 			(effects
 				(font
@@ -17900,7 +17750,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117GS-5.0"
+		(property "Value" "~"
 			(at 292.1 189.103 0)
 			(effects
 				(font
@@ -17928,6 +17778,15 @@
 			)
 		)
 		(property "Description" "LM1117GS-5.0"
+			(at 292.1 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "LM1117GS-5.0"
 			(at 292.1 193.675 0)
 			(effects
 				(font
@@ -18255,7 +18114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 192.7352 289.56 0)
 			(effects
 				(font
@@ -18910,7 +18769,7 @@
 				)
 			)
 		)
-		(property "Value" "OUT2"
+		(property "Value" "~"
 			(at 327.406 99.06 0)
 			(effects
 				(font
@@ -18937,6 +18796,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 327.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "OUT2"
 			(at 327.66 96.52 0)
 			(effects
 				(font
@@ -19712,7 +19580,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "30"
 			(at 130.937 191.135 90)
 			(effects
 				(font
@@ -20317,7 +20185,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AHC1G08DBVR"
+		(property "Value" "~"
 			(at 249.428 263.144 0)
 			(effects
 				(font
@@ -20345,6 +20213,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 249.428 265.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SN74AHC1G08DBVR"
 			(at 249.428 265.684 0)
 			(effects
 				(font
@@ -20395,7 +20272,7 @@
 				)
 			)
 		)
-		(property "Value" "1SMB5919B"
+		(property "Value" "~"
 			(at 116.332 205.105 0)
 			(effects
 				(font
@@ -20423,6 +20300,15 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
+			(at 116.332 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "1SMB5919B"
 			(at 116.332 208.28 0)
 			(effects
 				(font
@@ -20597,7 +20483,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI6651ASC-DSWR"
+		(property "Value" "~"
 			(at 155.702 176.53 0)
 			(effects
 				(font
@@ -20624,6 +20510,15 @@
 			)
 		)
 		(property "Description" "NSI6651ASC-DSWR"
+			(at 155.702 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "NSI6651ASC-DSWR"
 			(at 155.702 201.295 0)
 			(effects
 				(font
@@ -20841,7 +20736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FLT"
+		(property "Value" "~"
 			(at 294.386 297.053 90)
 			(effects
 				(font
@@ -20870,6 +20765,24 @@
 		)
 		(property "Description" "KP-2012SURCK"
 			(at 292.608 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "FYLS-0805URC "
+			(at 292.608 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "FLT"
+			(at 292.608 295.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20978,7 +20891,7 @@
 				)
 			)
 		)
-		(property "Value" "SN65HVD3082EDR"
+		(property "Value" "~"
 			(at 303.784 258.064 0)
 			(effects
 				(font
@@ -21006,6 +20919,15 @@
 			)
 		)
 		(property "Description" "ADM3485E"
+			(at 303.784 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SN65HVD3082EDR"
 			(at 303.784 257.81 0)
 			(effects
 				(font
@@ -21130,7 +21052,7 @@
 				)
 			)
 		)
-		(property "Value" "ADM3485E"
+		(property "Value" "~"
 			(at 427.99 185.166 0)
 			(effects
 				(font
@@ -21158,6 +21080,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 427.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SN65HVD3082EDR"
 			(at 427.99 186.69 0)
 			(effects
 				(font
@@ -21217,7 +21148,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "K7805M-1000R3"
+		(property "Value" "~"
 			(at 103.505 262.255 90)
 			(effects
 				(font
@@ -21246,6 +21177,15 @@
 		)
 		(property "Description" "K78xxM-1000R3"
 			(at 107.95 273.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "K7805M-1000R3"
+			(at 107.95 273.685 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22318,74 +22258,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 130.937 198.755 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0deecb1-7626-4ea6-bd9e-d83e05d67e28")
-		(property "Reference" "R18"
-			(at 130.937 196.977 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 130.937 198.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 130.937 198.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.937 198.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.937 198.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "802d2e4c-1956-4bb9-a4d7-b3dc13f069cb")
-		)
-		(pin "2"
-			(uuid "7e2a5955-0f5f-4522-b77d-491a1fda1e91")
-		)
-		(instances
-			(project "Driver_Inductor"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 342.9 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22479,7 +22351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 192.7352 254 0)
 			(effects
 				(font
@@ -23200,7 +23072,7 @@
 				)
 			)
 		)
-		(property "Value" "OUT1"
+		(property "Value" "~"
 			(at 327.406 87.63 0)
 			(effects
 				(font
@@ -23227,6 +23099,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 327.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "OUT1"
 			(at 327.66 85.09 0)
 			(effects
 				(font
@@ -23731,7 +23612,7 @@
 				)
 			)
 		)
-		(property "Value" "MURS160"
+		(property "Value" "~"
 			(at 110.49 210.82 0)
 			(effects
 				(font
@@ -23759,6 +23640,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.252 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "MURS160"
 			(at 111.252 208.28 0)
 			(effects
 				(font
@@ -23935,7 +23825,7 @@
 				)
 			)
 		)
-		(property "Value" "1SMB5919B"
+		(property "Value" "~"
 			(at 116.332 123.825 0)
 			(effects
 				(font
@@ -23963,6 +23853,15 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
+			(at 116.332 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "1SMB5919B"
 			(at 116.332 127 0)
 			(effects
 				(font
@@ -24546,7 +24445,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "30"
 			(at 130.937 182.245 90)
 			(effects
 				(font
@@ -24733,74 +24632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.302 95.885 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e80c293e-6482-496d-af15-b8e74e2eef88")
-		(property "Reference" "R5"
-			(at 130.302 94.107 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 130.302 95.885 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 130.302 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.302 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.302 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "266437ae-c4a5-4051-a78c-f15512762421")
-		)
-		(pin "2"
-			(uuid "ac6ec52d-7944-4a52-8ef5-383ee62ed95c")
-		)
-		(instances
-			(project "Driver_Inductor"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ADM1485JRZ:ADM1485JRZ")
 		(at 226.822 98.425 0)
 		(unit 1)
@@ -24818,7 +24649,7 @@
 				)
 			)
 		)
-		(property "Value" "SN65HVD3082EDR"
+		(property "Value" "~"
 			(at 226.822 96.52 0)
 			(effects
 				(font
@@ -24902,6 +24733,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "SN65HVD3082EDR"
+			(at 226.822 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25158,7 +24998,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "30"
 			(at 130.937 194.945 90)
 			(effects
 				(font
@@ -25574,74 +25414,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 130.937 178.435 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f27133ff-85cd-4630-a467-423824238947")
-		(property "Reference" "R3"
-			(at 130.937 176.657 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 130.937 178.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 130.937 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.937 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.937 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9da36a04-4696-47b3-a367-7b2816d6e74a")
-		)
-		(pin "2"
-			(uuid "38c4a2a8-0eee-41a3-a2db-4aac45bd5399")
-		)
-		(instances
-			(project "Driver_Inductor"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 438.785 298.45 0)
 		(unit 1)
@@ -25859,7 +25631,7 @@
 				)
 			)
 		)
-		(property "Value" "NSM2011-50B5R-DSWR"
+		(property "Value" "~"
 			(at 438.15 259.08 0)
 			(effects
 				(font
@@ -25887,6 +25659,15 @@
 			)
 		)
 		(property "Description" "NSM2011-50B5R-DSWR"
+			(at 438.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "NSM2011-50B5R-DSWR"
 			(at 438.15 261.62 0)
 			(effects
 				(font

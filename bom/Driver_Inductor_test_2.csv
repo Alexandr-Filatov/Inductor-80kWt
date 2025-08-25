@@ -18,9 +18,10 @@ D8,D11	WRA1215S-3WR2	Mornsun:WRA_S-3WR2	2	WRA1215S-3WR2
 D9	FLT	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1	KP-2012SURCK
 D10	RDY	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1	FYLS-0805UBC
 D12	K7805M-1000R3	Mornsun:K78xxM-1000R3	1	K78xxM-1000R3
-D13,D14,D15,D19	SN65HVD3082EDR	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	4	-- смешанные значения --
+D13,D14,D15	SN65HVD3082EDR	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	3	ADM3485E,ANALOG DEVICES - ADM1485JRZ - Differential Line Transceiver RS485, High Speed, Low Power, 2 Drivers,  4.75V-5.25V supply, SOIC-8
 D16,D18	1SMB5919B	Diode_SMD:D_SOD-323_HandSoldering	2	Zener diode, small symbol
 D17	NSM2011-50B5R-DSWR	Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm	1	NSM2011-50B5R-DSWR
+D19	ADM3485E	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	1	
 D20	GD50FFY120C5S	IGBT_Modul:GD50FFY120C5S	1	
 J1	Control_A	Connector_Molex:Molex_Micro-Fit_3.0_43045-1212_2x06_P3.00mm_Vertical	1	SCT3001WV-2x06P
 J2	DC+	Connector_My:Bush_M4	1	
@@ -32,7 +33,7 @@ R1,R2,R23,R29,R30,R31	120	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSold
 R3,R4,R5,R6,R15,R16,R17,R18,R19,R20,R21,R22	47	Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder	12	
 R7,R8	1.6k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	2	
 R9,R10	0.5	Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder	2	Resistor
-R11,R14,R32	1k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3	-- смешанные значения --
+R11,R14,R32	1k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	3	Resistor, small symbol
 R12,R35,R36,R37,R38	560	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	5	
 R13,R25,R26,R27,R33,R34	10k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	6	
 R24	4.7k	Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	1	Resistor, small symbol

@@ -1,7 +1,7 @@
 (footprint "Bush_M4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8d05378a-1177-494e-b3ac-af23fdc17dfe")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -7 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69886a20-f34b-4db7-9434-0acd42039e25")
 		(effects
 			(font
 				(size 1 1)
@@ -67,6 +54,40 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "91a5ef22-44d9-4ed3-9977-b7e28bf75384")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f4873260-4820-4771-852c-41337a3f6296")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bdb820e3-20aa-4494-927a-0896afd51ac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 10 10)
@@ -75,6 +96,7 @@
 		(remove_unused_layers no)
 		(uuid "f8007ef0-b04c-4703-b1b2-df8c6a78c276")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/Втулка М4 6х10.STEP"
 		(offset
 			(xyz 2.85 1.15 -1)
